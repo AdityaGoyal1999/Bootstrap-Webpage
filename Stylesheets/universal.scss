@@ -1,0 +1,43 @@
+/* This add universal changes to the webpage */
+
+$border-size: 10px;
+// @media screen and (max-width: 700px) {
+//     body {
+//         border: 3px solid white;
+//         padding: 5px;
+//     }
+// }
+// body {
+//     background-color: cornflowerblue;
+//     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+//     padding: $border-size;
+//     border: $border-size solid white;
+// }
+body {
+    h1 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+    }
+    background-color:turquoise;
+}
+
+#contents {
+    border: 10px orange solid;
+    // padding: 3%;
+    margin: 5%;
+}
+
+// this is not working!
+#head:hover {
+    font-size: 40px;
+}
+
+.navbar {
+    ul {
+        align-content: flex-end;
+    }
+    .navbar-brand {
+        font-size: 30px;
+        font-weight: 70px;
+    }
+}

@@ -1,0 +1,24 @@
+$breakpoint-phone: 768px; // demensions in boostrap documentation for medium devices
+.col-md-6 {
+    padding: 40px;
+}
+
+#leftColumn {
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+#photo {
+    border: 5px orange solid;
+}
+
+@media (max-width: $breakpoint-phone) {
+    #leftColumn {
+        padding: 0px;
+        padding-left: 30%;
+        padding-top: 30px;
+    }
+    #photo {
+        border: 5px orange solid;
+    }
+}

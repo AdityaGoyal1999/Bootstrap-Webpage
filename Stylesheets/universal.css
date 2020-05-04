@@ -1,0 +1,21 @@
+/* This add universal changes to the webpage */
+body {
+  background-color: turquoise; }
+  body h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center; }
+
+#contents {
+  border: 10px orange solid;
+  margin: 5%; }
+
+#head:hover {
+  font-size: 40px; }
+
+.navbar ul {
+  align-content: flex-end; }
+.navbar .navbar-brand {
+  font-size: 30px;
+  font-weight: 70px; }
+
+/*# sourceMappingURL=universal.css.map */

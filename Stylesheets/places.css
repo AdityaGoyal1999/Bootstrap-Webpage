@@ -1,0 +1,28 @@
+th {
+    padding: 5px;
+    background-color: aquamarine;
+    border: 2px solid;
+}
+
+td {
+    padding: 2px;
+    border: 1px solid;
+}
+
+.numberRow {
+    width: 30px;
+}
+
+table {
+    width: 90%;
+}
+
+#head {
+    font-size: 30px;
+    /* text-align: left;
+    text-shadow: 1px 10px 10px grey; */
+}
+
+#contents {
+    padding: 100px;
+}
