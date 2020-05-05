@@ -1,0 +1,23 @@
+$breakpoint-phone: 768px;
+.socialMediaImage {
+    height: 150px;
+    width: 150px;
+}
+
+#contents {
+    padding: 100px;
+}
+
+@media (max-width: $breakpoint-phone) {
+    .socialMediaImage {
+        padding-left: 50px;
+        padding-bottom: 10px;
+        height: 150px;
+        width: 200px;
+    }
+}
+
+// Pseudo classes
+.socialMediaImage:hover {
+    box-shadow: 10px 10px 5px black;
+}
