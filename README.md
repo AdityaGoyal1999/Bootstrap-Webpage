@@ -1,6 +1,6 @@
 # Bootstrap Project
 
-The website is static and can be accessed by <a href="#" target="_blank">here</a>.
+The website is static and can be accessed by <a href="https://adityagoyal1999.github.io/Bootstrap-Webpage/." target="_blank">here</a>.
 
 The submission has 4 files-
 1. Info about me
