@@ -1,0 +1,52 @@
+$breakpoint-phone: 768px;
+// Sass inheritance
+%card-config {
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.col-md-3 {
+    padding: 40px;
+}
+
+#calculus {
+    @extend %card-config;
+    background-color: coral;
+}
+
+#compsci1 {
+    @extend %card-config;
+    background-color: cornflowerblue;
+}
+
+#compsci2 {
+    @extend %card-config;
+    background-color: cyan;
+}
+
+#compsci3 {
+    @extend %card-config;
+    background-color: aquamarine;
+}
+
+#linAlg {
+    @extend %card-config;
+    background-color: burlywood;
+}
+
+#spanish {
+    @extend %card-config;
+    background-color: yellowgreen;
+}
+
+@media (max-width: $breakpoint-phone) {
+    .col-md-3 {
+        padding: 20px;
+        width: 70%;
+        padding-left: 30%;
+    }
+}
+
+img {
+    width: 100%;
+}

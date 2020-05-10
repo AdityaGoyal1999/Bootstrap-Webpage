@@ -1,6 +1,7 @@
 .socialMediaImage {
   height: 150px;
-  width: 150px; }
+  width: 150px;
+  border-radius: 20%; }
 
 #contents {
   padding: 100px; }
@@ -14,4 +15,4 @@
 .socialMediaImage:hover {
   box-shadow: 10px 10px 5px black; }
 
-/*# sourceMappingURL=file2.css.map */
+/*# sourceMappingURL=social.css.map */

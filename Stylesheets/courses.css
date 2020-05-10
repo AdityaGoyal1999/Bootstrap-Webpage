@@ -1,0 +1,34 @@
+#calculus, #compsci1, #compsci2, #compsci3, #linAlg, #spanish {
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace; }
+
+.col-md-3 {
+  padding: 40px; }
+
+#calculus {
+  background-color: coral; }
+
+#compsci1 {
+  background-color: cornflowerblue; }
+
+#compsci2 {
+  background-color: cyan; }
+
+#compsci3 {
+  background-color: aquamarine; }
+
+#linAlg {
+  background-color: burlywood; }
+
+#spanish {
+  background-color: yellowgreen; }
+
+@media (max-width: 768px) {
+  .col-md-3 {
+    padding: 20px;
+    width: 70%;
+    padding-left: 30%; } }
+img {
+  width: 100%; }
+
+/*# sourceMappingURL=courses.css.map */
