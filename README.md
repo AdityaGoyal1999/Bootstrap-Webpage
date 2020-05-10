@@ -1,6 +1,6 @@
-# Project 0
+# Bootstrap Project
 
-Web Programming with Python and JavaScript
+The website is static and can be accessed by <a href="#" target="_blank">here</a>.
 
 The submission has 4 files-
 1. Info about me
